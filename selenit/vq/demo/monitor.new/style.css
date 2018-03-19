@@ -1,0 +1,124 @@
+* { margin: 0; padding: 0; outline: 0; }
+
+
+body {
+    font-family: arial, sans-serif;
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+}
+
+input {
+    color: #0489B1;
+}
+
+h2 {
+    color: #F2F2F2;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+
+h6 {margin-top: -12px; padding-left: 20px;}
+
+.pollInputClass{
+	width:98%;
+	height: 20px;
+	background: #3995d6;
+}
+
+
+.bienvenida{
+	font-size: 18px;
+	font-weight: bold;
+	color: #3995d6;
+}
+
+
+
+.inputSuave{
+    color: #0489B1;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+}
+
+.bienvenidaTexto{
+	font-size: 16px;
+	color: white;
+}
+
+
+.vui_alert-text{
+    font-size: 14px;
+    font-weight: bold;
+    color: #3995d6;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.vui_alert-text h1{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.vui_alert-text h2{
+    color: #F0E6E6;
+    font-size: 14px;
+}
+
+.ui-dialog .ui-dialog-title .ui-icon {
+    float: left;
+    margin-right: 4px;
+    margin-left:-10px;
+}
+
+.iconContrae{
+    width:20px; 
+    height:20px;
+    border:0px solid; 
+    padding-top: 5px;
+    padding-left: 2px;
+}
+
+.explorerText{
+   position: relative;
+   top: -6px; 
+   left: 5px; 
+}
+
+.alertaEspecial{
+    position: relative; font-size: 18px; font-weight: bold; color:#FFFFFF;
+    top: -30px; left: 10px
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    opacity: 0.0;
+  }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+}
+
+
+/*
+.customClass4 span { 
+    background-color: maroon; color: yellow; 
+}
+*/
+
+
+.customClass4 span { 
+    background-color: maroon; color: yellow; 
+}

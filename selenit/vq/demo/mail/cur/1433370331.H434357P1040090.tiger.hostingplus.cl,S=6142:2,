@@ -1,0 +1,167 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 19:25:31 -0300
+Received: from snt004-omc3s49.hotmail.com ([65.54.51.86]:49606)
+	by tiger.hostingplus.cl with esmtps (TLSv1.2:AES256-SHA256:256)
+	(Exim 4.85)
+	id 1Z0H6F-004MP2-5i
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 19:25:29 -0300
+Received: from SNT004-MC1F42.hotmail.com ([65.55.90.136]) by SNT004-OMC3S49.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.22751);
+	 Wed, 3 Jun 2015 15:25:19 -0700
+From: postmaster@hotmail.com
+To: selenit@tiger.hostingplus.cl
+Date: Wed, 3 Jun 2015 15:25:19 -0700
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="9B095B5ADSN=_01D098362FC0FE330051A91ESNT004?MC1F42.ho"
+X-DSNContext: 335a7efd - 4481 - 00000001 - 80040546
+Message-ID: <9oD6XMLDt00114a59@SNT004-MC1F42.hotmail.com>
+Subject: Delivery Status Notification (Failure)
+X-OriginalArrivalTime: 03 Jun 2015 22:25:19.0935 (UTC) FILETIME=[2CC1DCF0:01D09E4C]
+
+This is a MIME-formatted message.  
+Portions of this message may be unreadable without a MIME-capable mail program.
+
+--9B095B5ADSN=_01D098362FC0FE330051A91ESNT004?MC1F42.ho
+Content-Type: text/plain; charset=unicode-1-1-utf-7
+
+This is an automatically generated Delivery Status Notification.
+
+Delivery to the following recipients failed.
+
+       melo@hotmail.com
+
+
+
+
+--9B095B5ADSN=_01D098362FC0FE330051A91ESNT004?MC1F42.ho
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;SNT004-MC1F42.hotmail.com
+Received-From-MTA: dns;tiger.hostingplus.cl
+Arrival-Date: Wed, 3 Jun 2015 15:25:18 -0700
+
+Final-Recipient: rfc822;melo@hotmail.com
+Action: failed
+Status: 5.5.0
+Diagnostic-Code: smtp;550 Requested action not taken: mailbox unavailable (1206618861:4198:-2147467259)
+
+--9B095B5ADSN=_01D098362FC0FE330051A91ESNT004?MC1F42.ho
+Content-Type: message/rfc822
+
+Received: from tiger.hostingplus.cl ([190.110.122.143]) by SNT004-MC1F42.hotmail.com over TLS secured channel with Microsoft SMTPSVC(7.5.7601.23008);
+	 Wed, 3 Jun 2015 15:25:18 -0700
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z0H5y-004MKz-8e
+	for melo@hotmail.com; Wed, 03 Jun 2015 19:25:10 -0300
+To: melo@hotmail.com
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.23.52
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+From: Selenit <info@selenit.cl>
+Message-Id: <E1Z0H5y-004MKz-8e@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 19:25:10 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - hotmail.com
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/from_h
+Return-Path: selenit@tiger.hostingplus.cl
+X-OriginalArrivalTime: 03 Jun 2015 22:25:19.0653 (UTC) FILETIME=[2C96D550:01D09E4C]
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=melo@hotmail.com">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=melo@hotmail.com">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+
+
+
+--9B095B5ADSN=_01D098362FC0FE330051A91ESNT004?MC1F42.ho--

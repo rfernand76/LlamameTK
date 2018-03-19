@@ -1,0 +1,186 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 19:03:37 -0300
+Received: from relay1.hostingpro.cl ([201.238.227.101]:21460)
+	by tiger.hostingplus.cl with esmtp (Exim 4.85)
+	id 1Z0Gl6-0049rE-Gv
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 19:03:36 -0300
+Received: by relay1.hostingpro.cl (Postfix)
+	id 57A55EBC966; Wed,  3 Jun 2015 19:03:30 -0300 (ART)
+Date: Wed,  3 Jun 2015 19:03:30 -0300 (ART)
+From: MAILER-DAEMON@relay1.hostingpro.cl (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: selenit@tiger.hostingplus.cl
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="136DDEBC8BC.1433369010/relay1.hostingpro.cl"
+Content-Transfer-Encoding: 8bit
+Message-Id: <20150603220330.57A55EBC966@relay1.hostingpro.cl>
+
+This is a MIME-encapsulated message.
+
+--136DDEBC8BC.1433369010/relay1.hostingpro.cl
+Content-Description: Notification
+Content-Type: text/plain
+
+This is the Postfix program at host relay1.hostingpro.cl.
+
+I'm sorry to have to inform you that your message could not be
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to <postmaster>
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+			The Postfix program
+
+<ventas@hospitaldeninos.cl>: host 201.238.227.119[201.238.227.119] said: 550
+    5.1.1 <ventas@hospitaldeninos.cl>: Recipient address rejected: User unknown
+    in virtual mailbox table (in reply to RCPT TO command)
+
+--136DDEBC8BC.1433369010/relay1.hostingpro.cl
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; relay1.hostingpro.cl
+X-Postfix-Queue-ID: 136DDEBC8BC
+X-Postfix-Sender: rfc822; selenit@tiger.hostingplus.cl
+Arrival-Date: Wed,  3 Jun 2015 19:03:30 -0300 (ART)
+
+Final-Recipient: rfc822; ventas@hospitaldeninos.cl
+Action: failed
+Status: 5.0.0
+Diagnostic-Code: X-Postfix; host 201.238.227.119[201.238.227.119] said: 550
+    5.1.1 <ventas@hospitaldeninos.cl>: Recipient address rejected: User unknown
+    in virtual mailbox table (in reply to RCPT TO command)
+
+--136DDEBC8BC.1433369010/relay1.hostingpro.cl
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+Content-Transfer-Encoding: 8bit
+
+Received: from localhost (unknown [127.0.0.1])
+	by relay1.hostingpro.cl (Postfix) with ESMTP id 136DDEBC8BC
+	for <ventas@hospitaldeninos.cl>; Wed,  3 Jun 2015 22:03:30 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at hostingpro.cl
+X-Amavis-Alert: BAD HEADER, Non-encoded 8-bit data (char C3 hex): Subject:
+	Selenit - Sistema de Gesti\303\263n de Filas  **...
+Received: from relay1.hostingpro.cl ([127.0.0.1])
+	by localhost (relay1.hostingpro.cl [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id jYV553yU9J-o for <ventas@hospitaldeninos.cl>;
+	Wed,  3 Jun 2015 19:03:22 -0300 (ART)
+Received: from tiger.hostingplus.cl (tiger.hostingplus.cl [190.110.122.143])
+	by relay1.hostingpro.cl (Postfix) with ESMTP id 22339EBC888
+	for <ventas@hospitaldeninos.cl>; Wed,  3 Jun 2015 19:03:22 -0300 (ART)
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z0FET-002vuI-7r
+	for ventas@hospitaldeninos.cl; Wed, 03 Jun 2015 17:25:50 -0300
+To: ventas@hospitaldeninos.cl
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.23.52
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+From: Selenit <info@selenit.cl>
+Message-Id: <E1Z0FET-002vuI-7r@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 17:25:49 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - hospitaldeninos.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/from_h
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=ventas@hospitaldeninos.cl">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=ventas@hospitaldeninos.cl">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+
+
+--136DDEBC8BC.1433369010/relay1.hostingpro.cl--

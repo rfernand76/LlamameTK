@@ -1,0 +1,128 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 14:12:55 -0300
+Received: from mailnull by tiger.hostingplus.cl with local (Exim 4.85)
+	id 1Z0CDk-000NhL-Nz
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 14:12:53 -0300
+X-Failed-Recipients: internacional@duoc.cl
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@tiger.hostingplus.cl>
+To: selenit@tiger.hostingplus.cl
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Z0CDk-000NhL-Nz@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 14:12:52 -0300
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  internacional@duoc.cl
+    Domain selenit.cl has exceeded the max emails per hour (125/100 (125%)) allowed.  Message discarded.
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <selenit@tiger.hostingplus.cl>
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z0CDf-000NdS-AX
+	for internacional@duoc.cl; Wed, 03 Jun 2015 14:12:47 -0300
+To: internacional@duoc.cl
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.108.8
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+From: Selenit <info@selenit.cl>
+Message-Id: <E1Z0CDf-000NdS-AX@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 14:12:47 -0300
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=internacional@duoc.cl">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=internacional@duoc.cl">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+

@@ -1,0 +1,34 @@
+<?php 
+    $usuario=$_POST["usuario"];
+    $password=$_POST["password"];
+    if($usuario == "" || $password == ""){
+        include("autentica.php");
+    }else{
+    
+	    $link = mysql_connect('', 'selenit_root', 'selenit5566');
+	    if (!$link) {
+            die('Not connected : ' . mysql_error());
+        }
+
+		// make foo the current db
+		$db_selected = mysql_select_db('selenit_produccion', $link);
+
+
+        $sql = "select eje_nombre, eje_modulo, eje_codigo from ejecutivo WHERE eje_usu='$usuario' and eje_password = '$password'";
+		$result = mysql_query($sql);
+        $fila = mysql_fetch_assoc($result); 
+        $eje_nombre = $fila["eje_nombre"];
+        $modulo = $fila["eje_modulo"];
+        $eje_codigo = $fila["eje_codigo"];
+        if($eje_nombre == ""){
+            include("autentica.php");
+        }else{
+            include("modulo.php");
+        }
+    }
+?>
+
+
+
+
+    

@@ -1,0 +1,121 @@
+body {
+    font-size: 22px;
+    line-height: 1px;
+    font-family: arial, sans-serif;
+    color: #1e3d51;
+    background-repeat:no-repeat;
+    background-position: center bottom -200px;
+    background-attachment: fixed;
+    text-align: center;
+    
+    /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%,rgba(0,0,0,0.7) 90%) , url("espera2.png");*/
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.0) 0%, rgba(0,0,10,0.9) 90%);
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 26px;
+    line-height: 10px;
+}
+
+h2{
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.container{
+    margin-top: 100px;
+}
+
+.titulo{
+    font-size: 25px;
+    height: 80px;
+    color:#8199D5;
+    font-weight: bold;
+
+}
+
+.wz{
+    background-image:  url("wz2.png");
+    background-size: 20px 20px;
+
+    background-repeat:no-repeat;
+    background-position: left 2px top 5px;
+    width: 255px;
+    
+}
+
+.titulo h1{
+    font-size: 36px;
+    margin-top: 15px;
+}
+
+.titulo h2{
+    font-size: 16px;
+    color:#FFFFFF;
+}
+
+.input{
+    font-size: 15px;
+    height:33px; 
+    line-height: 27px;
+    color:#8199D5;
+
+}
+
+.dato{
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 30px;
+
+    width: 100px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.llamado{
+    margin-top: 20px;
+    font-size: 22px;
+    border:1px solid;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
+    line-height: 90px;
+    height: 80px;
+    background:#1e3d51;
+    color: #ffffff;
+}
+
+.publi{
+    position: relative;
+    left:0;
+    top:0px;
+    font-size: 12px;
+    background: #3995d6;
+    text-align: center;
+    height: 35px;
+    color:#FBEFEF;
+    line-height: 35px;
+    font-weight: bold;
+    border-top: 2px solid  #47a1c4;
+}
+
+.status{
+    text-align: right;
+    font-size: 18px;
+    color: #3995d6;
+    float: right;
+    background: #ffffff;
+    height: 30px;
+    width: 30px;
+    margin-top: 3px;
+    margin-right: 3px;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px;
+}
+
+.status p{
+    margin-top: -3px;
+    margin-left: 2px;
+    color: #0B0B61;
+    font-size: 18px;
+    margin-right: 3px;
+}

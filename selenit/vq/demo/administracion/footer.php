@@ -1,0 +1,9 @@
+        </div>
+      </div>
+    </div>
+</div>
+</body>
+</html>
+<?php
+mysql_close($link);
+?>

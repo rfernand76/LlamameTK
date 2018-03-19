@@ -1,0 +1,193 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 10:35:11 -0300
+Received: from filtro02.iia.cl ([200.6.96.247]:54087)
+	by tiger.hostingplus.cl with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.85)
+	id 1Z08p3-001ifz-Gd
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 10:35:09 -0300
+Received: by filtro02.iia.cl (Postfix)
+	id A8272ACB014; Wed,  3 Jun 2015 10:32:55 -0400 (CLT)
+Date: Wed,  3 Jun 2015 10:32:55 -0400 (CLT)
+From: MAILER-DAEMON@iia.cl (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: selenit@tiger.hostingplus.cl
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="9246DACB01D.1433341975/filtro02.iia.cl"
+Message-Id: <20150603143255.A8272ACB014@filtro02.iia.cl>
+
+This is a MIME-encapsulated message.
+
+--9246DACB01D.1433341975/filtro02.iia.cl
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host filtro02.iia.cl.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<info@vidaintegra.cl>: host 200.6.100.102[200.6.100.102] said: 550 unknown user
+    <info@vidaintegra.cl> (in reply to RCPT TO command)
+
+--9246DACB01D.1433341975/filtro02.iia.cl
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; filtro02.iia.cl
+X-Postfix-Queue-ID: 9246DACB01D
+X-Postfix-Sender: rfc822; selenit@tiger.hostingplus.cl
+Arrival-Date: Wed,  3 Jun 2015 10:32:53 -0400 (CLT)
+
+Final-Recipient: rfc822; info@vidaintegra.cl
+Original-Recipient: rfc822;info@vidaintegra.cl
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; 200.6.100.102
+Diagnostic-Code: smtp; 550 unknown user <info@vidaintegra.cl>
+
+--9246DACB01D.1433341975/filtro02.iia.cl
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <selenit@tiger.hostingplus.cl>
+Received: from filtro02.iia.cl (localhost [127.0.0.1])
+	by filtro02.iia.cl (Postfix) with ESMTP id 9246DACB01D
+	for <info@vidaintegra.cl>; Wed,  3 Jun 2015 10:32:53 -0400 (CLT)
+X-Amavis-Alert: BAD HEADER SECTION, Non-encoded 8-bit data (char C3 hex):
+	Subject: Selenit - Sistema de Gesti\303\263n de Filas  **[...]
+X-Spam-Flag: NO
+X-Spam-Score: 0.282
+X-Spam-Level:
+X-Spam-Status: No, score=0.282 tagged_above=-999 required=5
+	tests=[BAYES_00=-1.9, HTML_MESSAGE=0.001, MIME_HTML_ONLY=0.723,
+	ST_P0F_Linux=-0.1, SUBJECT_NEEDS_ENCODING=0.049,
+	SUBJ_ILLEGAL_CHARS=1.518, T_RP_MATCHES_RCVD=-0.01,
+	URIBL_BLOCKED=0.001] autolearn=no
+Received: from filtro02.iia.cl (localhost [127.0.0.1])
+	by filtro02.iia.cl (Postfix) with ESMTP id 85D02ACB024
+	for <info@vidaintegra.cl>; Wed,  3 Jun 2015 10:32:50 -0400 (CLT)
+Received-SPF: none (tiger.hostingplus.cl: No applicable sender policy available) receiver=filtro02; identity=mailfrom; envelope-from="selenit@tiger.hostingplus.cl"; helo=tiger.hostingplus.cl; client-ip=190.110.122.143
+Received: from tiger.hostingplus.cl (tiger.hostingplus.cl [190.110.122.143])
+	by filtro02.iia.cl (Postfix) with ESMTPS id 8435CACB023
+	for <info@vidaintegra.cl>; Wed,  3 Jun 2015 10:32:49 -0400 (CLT)
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z08oo-001iVx-PH
+	for info@vidaintegra.cl; Wed, 03 Jun 2015 10:34:54 -0300
+To: info@vidaintegra.cl
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.108.8
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+From: Selenit <info@selenit.cl>
+Message-Id: <E1Z08oo-001iVx-PH@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 10:34:54 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - vidaintegra.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/from_h
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=info@vidaintegra.cl">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=info@vidaintegra.cl">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+
+
+--9246DACB01D.1433341975/filtro02.iia.cl--

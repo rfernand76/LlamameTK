@@ -1,0 +1,166 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 17:22:04 -0300
+Received: from pyme13.pymedns.net ([186.64.119.190]:48411)
+	by tiger.hostingplus.cl with esmtps (TLSv1.2:DHE-RSA-AES256-GCM-SHA384:256)
+	(Exim 4.85)
+	id 1Z0FAf-002s9i-RV
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 17:21:56 -0300
+Received: from mailnull by pyme13.pymedns.net with local (Exim 4.85)
+	id 1Z0FAf-002eD8-6V
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 17:21:53 -0300
+X-Failed-Recipients: contacto@hospitalsancarlos.cl
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@pyme13.pymedns.net>
+To: selenit@tiger.hostingplus.cl
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1Z0FAf-002eD8-6V@pyme13.pymedns.net>
+Date: Wed, 03 Jun 2015 17:21:53 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - pyme13.pymedns.net
+X-AntiAbuse: Original Domain - tiger.hostingplus.cl
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - 
+X-Get-Message-Sender-Via: pyme13.pymedns.net: none
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  contacto@hospitalsancarlos.cl
+    No Such User Here
+
+------ This is a copy of the message, including all the headers. ------
+
+Return-path: <selenit@tiger.hostingplus.cl>
+Received: from localhost ([127.0.0.1]:51286 helo=pyme13.pymedns.net)
+	by pyme13.pymedns.net with esmtp (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z0FAc-002eCl-G1
+	for contacto@hospitalsancarlos.cl; Wed, 03 Jun 2015 17:21:53 -0300
+Received: from tiger.hostingplus.cl ([190.110.122.143] helo=tiger.hostingplus.cl)
+	by pyme13.pymedns.net with ESMTPS(ECDHE-RSA-AES128-GCM-SHA256) (ASSP 1.9.9); 3 Jun 2015 17:21:49 -0300
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z0FAX-002s0e-LA
+	for contacto@hospitalsancarlos.cl; Wed, 03 Jun 2015 17:21:46 -0300
+To: contacto@hospitalsancarlos.cl
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.23.52
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+From: Selenit <info@selenit.cl>
+Message-Id: <E1Z0FAX-002s0e-LA@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 17:21:45 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - hospitalsancarlos.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/from_h
+X-Assp-SenderBase: country:CL; organization:SERVICIOS =?UTF-8?Q?INFORM=EF=BF=BDTICOS=20?=HOSTNAME
+	LTDA; domain:
+X-Assp-Score: -2 (Home Country CL)
+X-Assp-Score: -2 (SSL-TLS-connection-OK)
+X-Assp-Received-SPF: none ip=190.110.122.143 mailfrom=selenit@tiger.hostingplus.cl
+	helo=tiger.hostingplus.cl
+X-Assp-Score: 39 (Bayesian Probability: 0.99987)
+X-Assp-Envelope-From: selenit@tiger.hostingplus.cl
+X-Assp-Intended-For: contacto@hospitalsancarlos.cl 
+X-Assp-ID: pyme13.pymedns.net (id-43336-34094)
+X-Assp-Version: 1.9.9(13345)
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=contacto@hospitalsancarlos.cl">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=contacto@hospitalsancarlos.cl">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+

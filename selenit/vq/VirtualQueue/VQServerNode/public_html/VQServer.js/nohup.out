@@ -1,0 +1,38 @@
+init server
+
+/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/Parser.js:82
+        throw err;
+              ^
+Error: ER_BAD_DB_ERROR: Unknown database 'selenit_vq'
+    at Handshake.Sequence._packetToError (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/sequences/Sequence.js:48:14)
+    at Handshake.ErrorPacket (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/sequences/Handshake.js:101:18)
+    at Protocol._parsePacket (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/Protocol.js:271:23)
+    at Parser.write (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/Parser.js:77:12)
+    at Protocol.write (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/Connection.js:82:28)
+    at Socket.emit (events.js:95:17)
+    at Socket.<anonymous> (_stream_readable.js:765:14)
+    at Socket.emit (events.js:92:17)
+    at emitReadable_ (_stream_readable.js:427:10)
+    --------------------
+    at Protocol._enqueue (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/Protocol.js:135:48)
+    at Protocol.handshake (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/protocol/Protocol.js:52:41)
+    at Connection.connect (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/Connection.js:109:18)
+    at Connection._implyConnect (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/Connection.js:387:10)
+    at Connection.query (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/node_modules/mysql/lib/Connection.js:174:8)
+    at init (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/VQServer.js:60:28)
+    at Object.<anonymous> (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/VQServer.js:25:1)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+
+/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/VQHttpServer.js:10
+    client.on('connectFailed', function (error) {
+    ^
+ReferenceError: client is not defined
+    at Server.<anonymous> (/home/selenit/selenit/dev/selenit/VirtualQueue/VQServerNode/public_html/VQServer.js/VQHttpServer.js:10:5)
+    at Server.emit (events.js:98:17)
+    at HTTPParser.parser.onIncoming (http.js:2109:12)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:122:23)
+    at Socket.socket.ondata (http.js:1967:22)
+    at TCP.onread (net.js:528:27)

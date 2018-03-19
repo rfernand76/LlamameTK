@@ -1,0 +1,177 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 13:02:57 -0300
+Received: from mail.oviedo.cl ([164.77.52.68]:51066)
+	by tiger.hostingplus.cl with esmtp (Exim 4.85)
+	id 1Z0B82-003r96-Gl
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 13:02:55 -0300
+Received: by mail.oviedo.cl (Postfix)
+	id EFFFE32E20C5; Wed,  3 Jun 2015 11:48:39 -0400 (CLT)
+Date: Wed,  3 Jun 2015 11:48:39 -0400 (CLT)
+From: MAILER-DAEMON@oviedo.cl (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: selenit@tiger.hostingplus.cl
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="BF91432E208A.1433346519/mail.oviedo.cl"
+Message-Id: <20150603154839.EFFFE32E20C5@mail.oviedo.cl>
+
+This is a MIME-encapsulated message.
+
+--BF91432E208A.1433346519/mail.oviedo.cl
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host mail.oviedo.cl.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<oviedo@oviedo.cl>: maildir delivery failed: create maildir file
+    /home/oviedo/Maildir/tmp/1433346519.P36099.mail.oviedo.cl: Permission
+    denied
+
+--BF91432E208A.1433346519/mail.oviedo.cl
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; mail.oviedo.cl
+X-Postfix-Queue-ID: BF91432E208A
+X-Postfix-Sender: rfc822; selenit@tiger.hostingplus.cl
+Arrival-Date: Wed,  3 Jun 2015 11:48:39 -0400 (CLT)
+
+Final-Recipient: rfc822; oviedo@oviedo.cl
+Original-Recipient: rfc822;oviedo@oviedo.cl
+Action: failed
+Status: 5.2.0
+Diagnostic-Code: X-Postfix; maildir delivery failed: create maildir file
+    /home/oviedo/Maildir/tmp/1433346519.P36099.mail.oviedo.cl: Permission
+    denied
+
+--BF91432E208A.1433346519/mail.oviedo.cl
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Return-Path: <selenit@tiger.hostingplus.cl>
+Received: from tiger.hostingplus.cl (tiger.hostingplus.cl [190.110.122.143])
+	by mail.oviedo.cl (Postfix) with ESMTPS id BF91432E208A
+	for <oviedo@oviedo.cl>; Wed,  3 Jun 2015 11:48:39 -0400 (CLT)
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)
+	id 1Z0B7v-003r2U-1E
+	for oviedo@oviedo.cl; Wed, 03 Jun 2015 13:02:47 -0300
+To: oviedo@oviedo.cl
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.108.8
+MIME-Version: 1.0
+Content-type: text/html; charset=utf-8
+From: Selenit <info@selenit.cl>
+Message-Id: <E1Z0B7v-003r2U-1E@tiger.hostingplus.cl>
+Date: Wed, 03 Jun 2015 13:02:47 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - oviedo.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/from_h
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=oviedo@oviedo.cl">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=oviedo@oviedo.cl">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+
+
+--BF91432E208A.1433346519/mail.oviedo.cl--

@@ -1,0 +1,62 @@
+body {
+    font-size: 50px;
+    font-family: arial, sans-serif;
+    color: #999ea2;
+    background: #000000 repeat-x 0 0;
+    overflow: hidden;
+}
+
+.tabla{
+    font-size: 70px;
+    color: #FFFFFF;
+    font-weight: normal;
+    border: 1px solid #d6dae1; border-radius: 5px; -moz-border-radius: 0px; -webkit-border-radius: 5px; -o-border-radius: 5px; margin: 0px;
+    margin-left: 30px;
+    margin-top: 10px;
+    background: #000000  repeat-x 0 0;
+    width: 400px;
+}
+
+.header{
+    background: #000000  repeat-x 0 0;
+    font-size: 50px;
+    font-family: Verdana;
+    color: #E6E6E6;
+}
+
+.tipo{
+    background: #0B0B61  repeat-x 0 0;
+    color: #edf6ff;
+}
+
+.logo {
+    color: #0B0B61;
+    background: #FAFAFA  repeat-x 0 0;
+    border: 1px solid #d6dae1; border-radius: 5px; -moz-border-radius: 0px; -webkit-border-radius: 5px; -o-border-radius: 5px; margin: 0px;
+    width: 450px; 
+    height: 50px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+.fecha{
+    font-size: 30px;
+    margin-left: 5px;
+    width: 450px;
+    text-align: center;
+    line-height: 3px;
+    margin-top: -5px;
+}
+
+.publicidad{
+    width: 450px; 
+    height: 50px;
+    left: 480px;
+    position: absolute;
+    margin-top: 0px;
+    overflow: hidden;
+}
+
+.modulos{
+    #background: #FAFAFA  repeat-x 0 0;
+}

@@ -1,0 +1,114 @@
+2018-03-01 12:43:51,679 [DEBUG] PrintServer - You must specify a command
+2018-03-01 12:44:51,221 [DEBUG] PrintServer - Command:start
+2018-03-01 12:44:53,640 [DEBUG] PrintServer - Command:start
+2018-03-01 12:45:18,727 [DEBUG] PrintServer - Command:start
+2018-03-01 12:45:56,353 [DEBUG] PrintServer - Command:start
+2018-03-01 12:46:20,401 [DEBUG] PrintServer - Command:start
+2018-03-01 12:46:58,512 [DEBUG] PrintServer - Command:start
+2018-03-01 12:47:17,334 [DEBUG] PrintServer - Command:start
+2018-03-01 12:48:11,463 [DEBUG] PrintServer - Command:start
+2018-03-01 12:48:44,131 [DEBUG] PrintServer - Command:start
+2018-03-01 12:53:29,101 [DEBUG] PrintServer - Command:start
+2018-03-01 12:53:43,152 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 12:53:47,644 [DEBUG] PrintServer - PrintServer init
+2018-03-01 12:53:47,925 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 12:54:19,773 [DEBUG] PrintServer - Command:start
+2018-03-01 12:54:19,777 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 12:54:19,782 [DEBUG] PrintServer - Start Problems: IOException: La dirección ya se está usando (Bind failed)
+2018-03-01 12:54:19,782 [DEBUG] PrintServer - Server is stop
+2018-03-01 12:54:19,783 [DEBUG] PrintServer - main:end
+2018-03-01 12:54:46,289 [DEBUG] PrintServer - Command:start
+2018-03-01 12:54:59,188 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 12:55:01,852 [DEBUG] PrintServer - PrintServer init
+2018-03-01 12:55:01,856 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 13:05:34,469 [DEBUG] PrintServer - Command:start
+2018-03-01 13:06:16,874 [DEBUG] PrintServer - Command:start
+2018-03-01 13:06:56,090 [DEBUG] PrintServer - Command:start
+2018-03-01 13:07:49,430 [DEBUG] PrintServer - Command:start
+2018-03-01 13:08:04,856 [DEBUG] PrintServer - Command:start
+2018-03-01 13:08:04,863 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 13:08:04,877 [DEBUG] PrintServer - PrintServer init
+2018-03-01 13:08:04,878 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 13:08:35,994 [DEBUG] PrintServer - Command:start
+2018-03-01 13:08:36,007 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 13:08:36,016 [DEBUG] PrintServer - PrintServer init
+2018-03-01 13:08:36,020 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 13:08:49,660 [DEBUG] PrintServer - Command:start
+2018-03-01 13:10:03,216 [DEBUG] PrintServer - Command:start
+2018-03-01 13:10:28,938 [DEBUG] PrintServer - Command:start
+2018-03-01 13:11:07,997 [DEBUG] PrintServer - Command:start
+2018-03-01 13:11:08,011 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 13:11:08,019 [DEBUG] PrintServer - PrintServer init
+2018-03-01 13:11:08,020 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 13:11:22,039 [DEBUG] PrintServer - Command:start
+2018-03-01 13:11:22,052 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 13:11:22,070 [DEBUG] PrintServer - PrintServer init
+2018-03-01 13:11:22,073 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 13:11:41,659 [DEBUG] PrintServer - Command:start
+2018-03-01 13:12:17,396 [DEBUG] PrintServer - Command:start
+2018-03-01 13:12:17,402 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 13:12:17,411 [DEBUG] PrintServer - PrintServer init
+2018-03-01 13:12:17,411 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 13:12:41,030 [DEBUG] PrintServer - Command:start
+2018-03-01 13:12:41,057 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 13:12:41,062 [DEBUG] PrintServer - PrintServer init
+2018-03-01 13:12:41,064 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 14:03:08,096 [DEBUG] PrintServer - Command:start
+2018-03-01 14:03:08,109 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 14:03:08,132 [DEBUG] PrintServer - PrintServer init
+2018-03-01 14:03:08,137 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 18:47:27,073 [DEBUG] PrintServer - Command:start
+2018-03-01 18:47:27,078 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 18:47:27,093 [DEBUG] PrintServer - PrintServer init
+2018-03-01 18:47:27,094 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-01 18:47:51,718 [DEBUG] PrintServer - Command:start
+2018-03-01 18:47:51,731 [DEBUG] PrintServer - SocketManager:start
+2018-03-01 18:47:51,744 [DEBUG] PrintServer - Start Problems: IOException: La dirección ya se está usando (Bind failed)
+2018-03-01 18:47:51,744 [DEBUG] PrintServer - Server is stop
+2018-03-01 18:47:51,745 [DEBUG] PrintServer - main:end
+2018-03-01 20:14:07,404 [ERROR] PrintServer - Socket is closed
+java.net.SocketException: Socket is closed
+	at java.net.DatagramSocket.send(DatagramSocket.java:658)
+	at llamame.printserver.server.dispacher.SocketManager.start(SocketManager.java:59)
+	at llamame.printserver.server.dispacher.Program.start(Program.java:71)
+	at llamame.printserver.server.dispacher.Program.main(Program.java:50)
+2018-03-01 20:14:07,458 [DEBUG] PrintServer - Server is stop
+2018-03-01 20:14:07,460 [DEBUG] PrintServer - main:end
+2018-03-13 17:51:20,387 [DEBUG] PrintServer - Command:start
+2018-03-13 17:51:20,427 [DEBUG] PrintServer - SocketManager:start
+2018-03-13 17:51:20,458 [DEBUG] PrintServer - PrintServer init
+2018-03-13 17:51:20,458 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-13 17:54:28,372 [DEBUG] PrintServer - Command:start
+2018-03-13 17:54:28,392 [DEBUG] PrintServer - SocketManager:start
+2018-03-13 17:54:28,401 [DEBUG] PrintServer - PrintServer init
+2018-03-13 17:54:28,401 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-13 17:56:43,703 [ERROR] PrintServer - Port out of range:-1
+java.lang.IllegalArgumentException: Port out of range:-1
+	at java.net.DatagramPacket.setPort(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:161)
+	at llamame.printserver.server.dispacher.SocketManager.print(SocketManager.java:97)
+	at llamame.printserver.server.dispacher.SocketManager.start(SocketManager.java:53)
+	at llamame.printserver.server.dispacher.Program.start(Program.java:69)
+	at llamame.printserver.server.dispacher.Program.main(Program.java:48)
+2018-03-13 17:56:54,291 [DEBUG] PrintServer - Server is stop
+2018-03-13 17:56:54,292 [DEBUG] PrintServer - main:end
+2018-03-13 17:57:22,466 [DEBUG] PrintServer - Command:start
+2018-03-13 17:57:22,487 [DEBUG] PrintServer - SocketManager:start
+2018-03-13 17:57:22,499 [DEBUG] PrintServer - PrintServer init
+2018-03-13 17:57:22,500 [DEBUG] PrintServer - PrintServer service is running in port 2727
+2018-03-13 17:59:25,073 [ERROR] PrintServer - Port out of range:-1
+java.lang.IllegalArgumentException: Port out of range:-1
+	at java.net.DatagramPacket.setPort(DatagramPacket.java:295)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:123)
+	at java.net.DatagramPacket.<init>(DatagramPacket.java:161)
+	at llamame.printserver.server.dispacher.SocketManager.print(SocketManager.java:97)
+	at llamame.printserver.server.dispacher.SocketManager.start(SocketManager.java:53)
+	at llamame.printserver.server.dispacher.Program.start(Program.java:69)
+	at llamame.printserver.server.dispacher.Program.main(Program.java:48)
+2018-03-13 17:59:56,562 [DEBUG] PrintServer - Server is stop
+2018-03-13 17:59:56,563 [DEBUG] PrintServer - main:end
+2018-03-13 18:08:20,021 [DEBUG] PrintServer - Command:start
+2018-03-13 18:08:20,041 [DEBUG] PrintServer - SocketManager:start
+2018-03-13 18:08:20,048 [DEBUG] PrintServer - PrintServer init
+2018-03-13 18:08:20,050 [DEBUG] PrintServer - PrintServer service is running in port 2727

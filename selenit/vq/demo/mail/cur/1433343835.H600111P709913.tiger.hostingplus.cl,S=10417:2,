@@ -1,0 +1,281 @@
+Return-path: <>
+Envelope-to: selenit@tiger.hostingplus.cl
+Delivery-date: Wed, 03 Jun 2015 12:03:55 -0300
+Received: from smtp.meds.cl ([190.196.59.173]:49390)
+	by tiger.hostingplus.cl with esmtp (Exim 4.85)
+	id 1Z0ACu-002yX0-Am
+	for selenit@tiger.hostingplus.cl; Wed, 03 Jun 2015 12:03:53 -0300
+X-AuditID: c0a802c3-b7fdf6d000000da6-55-556f1752ae54
+X-Invalid-Recipients: 
+Received: from MEDSVMEXCAS01.medsdm.cl (medsvmexcas01.medsdm.cl [192.168.2.25])
+	by smtp.meds.cl (Symantec Messaging Gateway) with SMTP id DA.56.03494.2571F655; Wed,  3 Jun 2015 11:03:46 -0400 (CLT)
+MIME-Version: 1.0
+From: <postmaster@medsdm.cl>
+To: <selenit@tiger.hostingplus.cl>
+Date: Wed, 3 Jun 2015 12:03:46 -0300
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="a9b02e68-2633-4fc6-9b83-b2cc9dbcfd31"
+Content-Language: en-US
+Message-ID: <9eddb862-ce71-4ff1-b6ad-ec27e9a188c4@medsdm.cl>
+In-Reply-To: <E1Z0ACh-002ySo-6H@tiger.hostingplus.cl>
+References: <E1Z0ACh-002ySo-6H@tiger.hostingplus.cl>
+Subject: =?iso-8859-1?Q?Undeliverable:_Selenit_-_Sistema_de_Gesti=F3n_de_Filas__**?=
+ =?iso-8859-1?Q?*Gratis**?=
+
+--a9b02e68-2633-4fc6-9b83-b2cc9dbcfd31
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="155da2f3-a123-4321-b85d-568a5642b28d"
+
+--155da2f3-a123-4321-b85d-568a5642b28d
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery has failed to these recipients or groups:
+
+contacto@meds.cl<mailto:contacto@meds.cl>
+The e-mail address you entered couldn't be found. Please check the recipien=
+t's e-mail address and try to resend the message. If the problem continues,=
+ please contact your helpdesk.
+
+
+
+
+
+
+
+Diagnostic information for administrators:
+
+Generating server: medsdm.cl
+
+contacto@meds.cl
+#550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##
+
+Original message headers:
+
+Received: from smtp.meds.cl (192.168.2.195) by MEDSVMEXCAS01.medsdm.cl
+ (192.168.2.25) with Microsoft SMTP Server id 14.2.298.4; Wed, 3 Jun 2015
+ 12:03:46 -0300
+X-AuditID: c0a802c3-b7fdf6d000000da6-53-556f175158e4
+X-Invalid-Recipients:
+Received: from tiger.hostingplus.cl ( [190.110.122.143])        by smtp.med=
+s.cl
+ (Symantec Messaging Gateway) with SMTP id 7A.56.03494.1571F655; Wed,  3 Ju=
+n
+ 2015 11:03:45 -0400 (CLT)
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+        (envelope-from <selenit@tiger.hostingplus.cl>)  id 1Z0ACh-002ySo-6H=
+     for
+ contacto@meds.cl; Wed, 03 Jun 2015 12:03:40 -0300
+To: <contacto@meds.cl>
+Subject: Selenit - Sistema de Gesti=C3=B3n de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.108.8
+MIME-Version: 1.0
+Content-Type: text/html; charset=3D"utf-8"
+From: Selenit <info@selenit.cl>
+Message-ID: <E1Z0ACh-002ySo-6H@tiger.hostingplus.cl>
+Date: Wed, 3 Jun 2015 12:03:39 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with a=
+ny abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - meds.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/f=
+rom_h
+Return-Path: selenit@tiger.hostingplus.cl
+
+
+--155da2f3-a123-4321-b85d-568a5642b28d
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font color=3D"#000066" size=3D"3" face=3D"Arial">Delivery has failed=
+ to these recipients or groups:</font></b></p>
+<font color=3D"#000000" size=3D"2" face=3D"Tahoma"><p><a href=3D"mailto:con=
+tacto@meds.cl">contacto@meds.cl</a><br>
+The e-mail address you entered couldn't be found. Please check the recipien=
+t's e-mail address and try to resend the message. If the problem continues,=
+ please contact your helpdesk.<br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font color=3D"#808080" size=3D"2" face=3D"Tahoma"><p><b>Diagnostic informa=
+tion for administrators:</b></p>
+<p>Generating server: medsdm.cl</p>
+<p>contacto@meds.cl<br>
+ #550 5.1.1 RESOLVER.ADR.RecipNotFound; not found ##</p>
+<p>Original message headers:</p>
+<pre>Received: from smtp.meds.cl (192.168.2.195) by MEDSVMEXCAS01.medsdm.cl
+ (192.168.2.25) with Microsoft SMTP Server id 14.2.298.4; Wed, 3 Jun 2015
+ 12:03:46 -0300
+X-AuditID: c0a802c3-b7fdf6d000000da6-53-556f175158e4
+X-Invalid-Recipients:
+Received: from tiger.hostingplus.cl ( [190.110.122.143])	by smtp.meds.cl
+ (Symantec Messaging Gateway) with SMTP id 7A.56.03494.1571F655; Wed,  3 Ju=
+n
+ 2015 11:03:45 -0400 (CLT)
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from &lt;selenit@tiger.hostingplus.cl&gt;)	id 1Z0ACh-002ySo-6H	f=
+or
+ contacto@meds.cl; Wed, 03 Jun 2015 12:03:40 -0300
+To: &lt;contacto@meds.cl&gt;
+Subject: Selenit - Sistema de Gesti=C3=B3n de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.108.8
+MIME-Version: 1.0
+Content-Type: text/html; charset=3D&quot;utf-8&quot;
+From: Selenit &lt;info@selenit.cl&gt;
+Message-ID: &lt;E1Z0ACh-002ySo-6H@tiger.hostingplus.cl&gt;
+Date: Wed, 3 Jun 2015 12:03:39 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with a=
+ny abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - meds.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/f=
+rom_h
+Return-Path: selenit@tiger.hostingplus.cl
+</pre>
+</font>
+</body>
+</html>=
+
+--155da2f3-a123-4321-b85d-568a5642b28d--
+
+--a9b02e68-2633-4fc6-9b83-b2cc9dbcfd31
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;medsdm.cl
+Received-From-MTA: dns;smtp.meds.cl
+Arrival-Date: Wed, 3 Jun 2015 15:03:46 +0000
+
+Final-Recipient: rfc822;contacto@meds.cl
+Action: failed
+Status: 5.1.1
+Diagnostic-Code: smtp;550 5.1.1 RESOLVER.ADR.RecipNotFound; not found
+
+
+--a9b02e68-2633-4fc6-9b83-b2cc9dbcfd31
+Content-Type: message/rfc822
+
+Received: from smtp.meds.cl (192.168.2.195) by MEDSVMEXCAS01.medsdm.cl
+ (192.168.2.25) with Microsoft SMTP Server id 14.2.298.4; Wed, 3 Jun 2015
+ 12:03:46 -0300
+X-AuditID: c0a802c3-b7fdf6d000000da6-53-556f175158e4
+X-Invalid-Recipients:
+Received: from tiger.hostingplus.cl ( [190.110.122.143])	by smtp.meds.cl
+ (Symantec Messaging Gateway) with SMTP id 7A.56.03494.1571F655; Wed,  3 Jun
+ 2015 11:03:45 -0400 (CLT)
+Received: from selenit by tiger.hostingplus.cl with local (Exim 4.85)
+	(envelope-from <selenit@tiger.hostingplus.cl>)	id 1Z0ACh-002ySo-6H	for
+ contacto@meds.cl; Wed, 03 Jun 2015 12:03:40 -0300
+To: <contacto@meds.cl>
+Subject: Selenit - Sistema de Gestión de Filas  ***Gratis**
+X-PHP-Script: www.selenit.cl/mail/envio.php for 181.163.108.8
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+From: Selenit <info@selenit.cl>
+Message-ID: <E1Z0ACh-002ySo-6H@tiger.hostingplus.cl>
+Date: Wed, 3 Jun 2015 12:03:39 -0300
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - tiger.hostingplus.cl
+X-AntiAbuse: Original Domain - meds.cl
+X-AntiAbuse: Originator/Caller UID/GID - [1001 1013] / [47 12]
+X-AntiAbuse: Sender Address Domain - tiger.hostingplus.cl
+X-Get-Message-Sender-Via: tiger.hostingplus.cl: authenticated_id: selenit/from_h
+Return-Path: selenit@tiger.hostingplus.cl
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html lang="en">
+    <head>
+    <title>Selenit - Menu inicio</title>
+    <meta name="description" content="Menu inicio"/>
+    <meta charset="utf-8">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<title></title>
+	<style type="text/css">
+	<!--
+		@page { margin: 2cm }
+		p { margin-bottom: 15px; line-height: 100% }
+		a:link { so-language: zxx }
+	-->
+	</style>
+</head>
+<body lang="es-CL" dir="ltr" style="margin-bottom: 0cm; line-height: 100%; font-size: 12pt; color:#000066;">
+<p>Estimado(a)s</p>
+
+<p>Junto con saludarlos, les escribo para darles una excelente noticia. 
+Selenit presenta Virtual Line, un moderno y revolucionario <u>sistema de gestión de filas</u> para establecimientos con alta
+demanda de atención de personas.<br><br>
+
+En esta ocasión queremos invitarlo a participar en nuestro <u>programa de evaluación</u>,
+donde le otorgamos una licencia totalmente <u>gratuita</u> para instalación en su dependencia. Esta licencia da derecho a la
+explotación de Virtual Line de manera indefinida.
+</p>
+
+<p>
+Lo invitamos a conocer más de las características y ventajas que ofrece virtual Line en <a href="http://www.selenit.cl/vq.php?id=contacto@meds.cl">http://www.selenit.cl/vq.php</a>, pero desde ya le mostramos algunas razones por las cuales virtual Line es una excelente oportunidad.
+</p>
+
+<p>
+<b>¿Como funciona Virtual Line?</b>
+</br>
+Cuando una persona llega al establecimiento, el sistema
+le entrega un ticket de atención, que es un correlativo que el
+usuario puede sincronizar con su dispositivo smartphone, tablet o
+computador.
+<p>
+
+<p>
+Cada vez que un ejecutivo realiza un nuevo llamado, el sistema publica el
+avance en el monitor presente en la establecimiento pero además notifica a las personas sincronizadas al instante.
+</p>
+
+<p>
+<b>¿Porqué es gratis?</b></br>
+Nuestro objetivo es posicionarnos en el mercado como el software de gestión
+de filas mas grande del país. Para decir que somos los mas grandes, necesitamos demostrar que tenemos el mayor número de usuarios
+activos.
+</p>
+
+<p>
+<b>¿Por que creemos ser el mejor sistema de gestión de filas del país?</b></br>
+Virtual Line tiene todo lo que requiere para el control de filas, y mucho más:
+<ul>
+	<li>Módulo dispensador de ticket
+	<li>Módulo de llamado para el ejecutivo
+	<li>Modulo de reportes
+	<li>Módulo de configuración de parámetros.
+	<li>Módulo presentación de avance en monitor
+	<li>Modulo de seguimiento smartphone
+</ul>
+</p>
+
+<p><b>¿Que necesita para participar?</b>
+<ul>
+	<li>Banda ancha (internet)
+	<li>Un computador
+	<li>Impresora
+	<li>Un monitor de al menos 22 pulgadas
+</ul>
+</p>
+
+<p>
+Mas información en <br><a href="http://www.selenit.cl/vq.php?id=contacto@meds.cl">http://www.selenit.cl/vq.php</a><br>
+o escribanos a <a href="mailto:info@selenit.cl">info@selenit.cl</a> 
+y responderemos sus consultas
+</p>
+
+<p>
+Saludos cordiales</br>
+Selenit Computación e informática
+</p>
+
+</body>
+</html>
+
+
+--a9b02e68-2633-4fc6-9b83-b2cc9dbcfd31--
