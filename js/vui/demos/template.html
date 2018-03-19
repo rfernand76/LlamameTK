@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Compra Rapida</title>
+	
+	<script src="/js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
+	<script src="/js/vui/dependence.js"></script>
+	
+</head> 
+<body style="border: 0px solid"> 
+<script type="text/javascript">
+/*
+Description: Template viu demo
+Autor: Ricardo Fernandez
+Mail: ricardo.fernandez@sqltxt.cl
+www.sqltxt.cl
+*/
+
+$(function() {
+	var template = 
+{
+	"format": {
+		"version": "1.0.2",
+		"create": "2014-02-26T14:21:25.564Z"
+	},
+	"page": {
+		"width": 300,
+		"height": 100,
+		"top": 0,
+		"left": 0,
+		"name": "",
+		"mobilesupport": true
+	},
+	"fields": [
+		{
+			"subclass": "JQBotonClass",
+			"parent": "droppable",
+			"height": "60",
+			"width": "193",
+			"top": "11",
+			"left": "39.1",
+			"VIU": {
+				"id": "idJQBoton_2",
+				"maxLength": "",
+				"value": "0",
+				"disabled": "",
+				"theClass": "ui-corner-all",
+				"primary": "",
+				"secondary": "",
+				"text": "",
+				"caption": "Hello word",
+				"idCaption": "idCap_2",
+				"name": "",
+				"mobile": {
+					"action": 3,
+					"name": "B"
+				}
+			}
+		}
+	]
+}	
+	
+    dependence(template);//import dependence js 
+    $("#idFormat").run(template); //run vui template in idFormat html
+
+    $("#idJQBoton_2").click(function() {
+        alert("congratularion, you template is ok test");		
+    });
+});
+
+
+</script>
+
+<div>
+	<div id="idFormat">
+	</div>
+</div>
+</body></html>

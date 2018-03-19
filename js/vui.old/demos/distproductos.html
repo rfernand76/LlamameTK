@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Reporte distribución de pedidos por socio</title>
+	
+	<script src="/js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
+	<script src="/js/vui/dependence.js"></script>
+	
+</head> 
+<body style="border: 0px solid"> 
+<script type="text/javascript">
+/*
+Descripcion: El objetivo de esta pagina es presentar la interfaz principal de carga de platillas de pedidos a los socios o clientes.
+Autor: Ricardo Fernandez
+Correos contactos: ricardo.fernandez@sqltxt.cl
+www.sqltxt.cl o www.sqltxt.com
+
+*/
+
+$(function() {
+	var platilla = 
+		{"format":{"version":"1.0.1","create":"2013-09-26T17:24:44.893Z"},
+		"page":{"width":800,"height":600,"top":0,"left":0,"name":""},
+		"fields":
+		[
+			{
+				"subclass":"AcordionClass","parent":"droppable","height":"497","width":"252.6","top":"105","left":"0",
+				"VIU":{"id":"idAcordion_2","disabled":"","name":"","style":"","theClass":"ui-corner-all",
+				"nodes":[
+					{"id":"panel_1","text":"Autoreporte","padre":"idAcordion_2","idH3":"h3_1"},
+					{"id":"panel_2","text":"Por fecha","padre":"idAcordion_2","idH3":"h3_2"}
+				],"collapsible":""}
+			},
+			{
+				"subclass":"DivClass","parent":"droppable","height":"50","width":"241","top":"53","left":"0",
+				"VIU":{"id":"idDiv_23","name":"","style":"overflow:auto;","theClass":"ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons","title":"","align":"","url":""}
+			},
+			{
+				"subclass":"InputClass","parent":"droppable","height":"40","width":"129","top":"65","left":"85",
+				"VIU":{"id":"idInput_25","maxLength":"","size":"","disabled":"","name":"","style":"","theClass":"ui-corner-all"}
+			},
+			{
+				"subclass":"JQBotonClass","parent":"droppable","height":"45","width":"42","top":"64","left":"200",
+				"VIU":{"id":"idJQBoton_29","maxLength":"","value":"0","disabled":"","theClass":"ui-corner-all","primary":"ui-icon-refresh","secondary":"","text":"","caption":"boton","idCaption":"idCap_29"}
+			},
+			{
+				"subclass":"LabelClass","parent":"droppable","height":"24","width":"90","top":"68","left":"10",
+				"VIU":{"id":"idLabel_33","label":"Producto :","name":"","style":"font-size:15px;","theClass":"ui-widget"}
+			},
+			
+			{
+				"subclass":"PanelClass","parent":"droppable","height":"49","width":"553","top":"53","left":"244","VIU":{"id":"idPanel_37","idPanel":"idFSP_37","name":"","style":"","theClass":"ui-accordion-header ui-helper-reset ui-state-default ui-corner-all ui-accordion-icons","title":"","align":""}
+			},
+			
+			{
+				"subclass":"LabelClass","parent":"idFSP_37","height":"19","width":"57","top":"7","left":"7","VIU":{"id":"idLabel_41","label":"Producto:","name":"","style":"font-size:13px;","theClass":"ui-widget"}
+			},
+			
+			{
+				"subclass":"LabelClass","parent":"idFSP_37","height":"22","width":"469","top":"8","left":"70","VIU":{"id":"idLabel_45","label":"Mermelada de moras ( huertos caseros)","name":"","style":"","theClass":"ui-corner-all"}
+			},
+			
+			{
+				"subclass":"LabelClass","parent":"idFSP_37","height":"21","width":"62","top":"27","left":"7","VIU":{"id":"idLabel_49","label":"Periodo:","name":"","style":"font-size:13px;","theClass":"ui-widget"}
+			},
+			
+			{
+				"subclass":"LabelClass","parent":"idFSP_37","height":"22","width":"469","top":"29","left":"71","VIU":{"id":"idLabel_53","label":"Hoy (26/09/2013)","name":"","style":"","theClass":"ui-corner-all"}
+			},
+			
+			{
+				"subclass":"DynatreeClass","parent":"panel_1","height":"430","width":"231.7","top":"0.8","left":"4.3",
+				"VIU":{"id":"idDynatree_6","disabled":"","name":"","style":"","theClass":"ui-corner-all",
+				"data":[
+					{"title":"Hoy","isFolder":false,"key":"hoy","tooltip":""},
+					{"title":"Ayer","isFolder":false,"key":"_6","tooltip":""},
+					{"title":"Esta semana","isFolder":false,"key":"_7","tooltip":""},
+					{"title":"Semana Anterior","isFolder":false,"key":"_8","tooltip":""},
+					{"title":"Hace un mes","isFolder":false,"key":"_9","tooltip":""}
+				 ]}
+			},
+			
+			{
+				"subclass":"DivClass","parent":"panel_2","height":"380","width":"215.7","top":"10","left":"3.7",
+				"VIU":{"id":"idDiv_80","name":"","style":"overflow:auto;","theClass":"","title":"","align":"","url":""}
+			},
+			{
+				"subclass":"LabelClass","parent":"panel_2","height":"23.7","width":"196.7","top":"21","left":"21",
+				"VIU":{"id":"idLabel_84","label":"Fecha de Inicio","name":"","style":"font-size:15px;","theClass":"ui-widget"}
+			}
+			,
+			{
+				"subclass":"LabelClass","parent":"panel_2","height":"33.7","width":"173.7","top":"85","left":"21",
+				"VIU":{"id":"idLabel_88","label":"Fecha de Termino","name":"","style":"font-size:15px;","theClass":"ui-widget"}
+			}
+			,{
+				"subclass":"DatepickerClass","parent":"panel_2","height":"44.7","width":"200","top":"38.2","left":"21",
+				"VIU":{"id":"idDatepicker_92","maxLength":"","size":"","disabled":"","style":"","name":"","theClass":"ui-corner-all"}}
+			,{
+				"subclass":"DatepickerClass","parent":"panel_2","height":"41.7","width":"200","top":"103.5","left":"21",
+				"VIU":{"id":"idDatepicker_96","maxLength":"","size":"","disabled":"","style":"","name":"","theClass":"ui-corner-all"}
+			},
+			{
+				"subclass":"JQBotonClass","parent":"panel_2","height":"49.7","width":"136.7","top":"168.9","left":"21",
+				"VIU":{"id":"idJQBoton_100","maxLength":"","value":"0","disabled":"","theClass":"ui-corner-all","primary":"","secondary":"ui-icon-refresh","text":"text","caption":"Consultar","idCaption":"idCap_100"}
+			},
+			{
+				"subclass":"ToolbarClass","parent":"droppable","height":"55.7","width":"797.7","top":"1.6","left":"0",
+				"VIU":{"id":"idToolbarClass_8","disabled":"","name":"","style":"","theClass":"	 ui-corner-all",
+				"bars":
+				[
+					{"helpText":"File","id":"idBarFile","elements":
+						[
+							{"type":"button","helpText":"Refrescar","id":"idToolbar1","classIcon":"ui-icon-refresh"},
+							{"type":"button","helpText":"Exportar datos a Excel","id":"idToolbar2","classIcon":"ui-icon-arrowthickstop-1-s"},
+							{"type":"button","helpText":"Enviar los datos a mi correo","id":"idToolbar3","classIcon":"ui-icon-mail-closed"}
+						]
+					}
+				]}
+			}
+			,{
+				"subclass":"FlexiGridClass","parent":"droppable","height":"490","width":"553.7","top":"108","left":"244.2",
+				"VIU":
+				{
+					"id":"idFlexiGrid_72",
+					"caption":"FlexiGrid",
+					"disabled":"",
+					"name":"",
+					"style":"",
+					"theClass":"",
+					"url":"php/distproductos.php",
+					"dataType":"json",
+					"title":"Pedidos",
+					"usepager":true,
+					"useRp":true,
+					"rp":20,
+					"showTableToggleBtn":false,
+					"resizable":false,
+					"singleSelect":false,
+					"sortname":"iso",
+					"sortorder":"asc",
+					"striped":false,
+					"width":550.7,
+					"height":455.70000000000005,
+					"colModel":[
+						{"display":"Fecha","name":"nombre","width":80,"sortable":true,"align":"left"},
+						{"display":"Rut","name":"nombre","width":80,"sortable":true,"align":"left"},
+						{"display":"Nombre","name":"name","width":150,"sortable":true,"align":"left"},
+						
+						{"display":"Cantidad","name":"name","width":70,"sortable":true,"align":"right"},
+						{"display":"Precio","name":"name","width":70,"sortable":true,"align":"right"},
+						{"display":"Total","name":"name","width":70,"sortable":true,"align":"right"},
+					],
+					"searchitems":[
+						{"display":"ISO","name":"iso","isdefault":false}
+					]
+				}
+			}
+		]}
+		
+	;
+	
+	dependence(platilla);//importa todos los js que necesita la pagina para funcionar
+    $("#idFormat").run(platilla);
+
+});
+
+
+</script>
+
+<div style='position:relative;'>
+	<div id="idFormat" class="ui-state-default ui-corner-all">
+	</div>
+</div>
+</body></html>

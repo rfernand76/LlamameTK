@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Compra Rapida</title>
+	
+	<script src="/js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
+	<script src="/js/vui/dependence.js"></script>
+	
+</head> 
+<body style="border: 0px solid"> 
+<script type="text/javascript">
+/*
+Descripcion: El objetivo de esta pagina es presentar la interfaz principal de carga de platillas de pedidos a los socios o clientes.
+Autor: Ricardo Fernandez
+Correos contactos: ricardo.fernandez@sqltxt.cl
+www.sqltxt.cl o www.sqltxt.com
+
+*/
+
+$(function() {
+	var platilla = 
+			{
+				"format":{"version":"1.0.1","create":"2013-09-24T20:46:00.105Z"},
+				"page":{"width":800,"height":600,"top":0,"left":0,"name":""},
+				
+				"fields":
+				[
+					{
+						"subclass":"TabClass","parent":"droppable","height":"547.7","width":"795","top":"10","left":"4",
+						"VIU":
+						{
+							"tabs":
+							[
+								{"idLi":"tabLi_2","idDiv":"tabDiv_2","idPanelTab":"panelTab_1","text":"Todos los Productos","padre":"idTab_11"},
+								{"idLi":"tabLi_1","idDiv":"tabDiv_1","idPanelTab":"panelTab_2","text":"Favoritos","padre":"idTab_11"}
+							],
+							"id":"idTab_11",
+							"disabled":"",
+							"idUl":"idTabUl_11",
+							"collapsible":"",
+							"event":"",
+							"name":"",
+							"style":"",
+							"sortable":"",
+							"theClass":"ui-corner-all"
+						}
+					},
+					{
+						"subclass":"ToolbarClass","parent":"panelTab_1","height":"48.7","width":"535","top":"36","left":"248",
+						"VIU":{"id":"idToolbarClass_2",	"disabled":"","name":"","style":"","theClass":"ui-state-default ui-corner-all",
+						"bars":[
+							{"helpText":"File","id":"idBarTodos1",
+							"elements":[
+								{"type":"button"  ,"helpText":"Ir a carro de compras", "classIcon":"ui-icon-cart", "text":false,"id":"idToolCar"}
+							   ,{"type":"button","helpText":"Agregar a lista de Favoritos","id":"idToolDel","classIcon":"ui-icon-star"}
+							   ]
+							}
+							
+						]}
+					},
+					
+					{
+						"subclass":"FieldsetClass","parent":"panelTab_1","height":"515","width":"235.7","top":"27","left":"5",
+						"VIU":{"id":"idFieldset_4","idPanel":"idFS_4","idLegend":"idLegent_4","disabled":"","name":"","style":"","theClass":"","legend":"Categorias","legendAlign":"left"}
+					},
+					
+					{
+						"subclass":"FlexiGridClass","parent":"panelTab_1","height":"490","width":"540","top":"80","left":"248",
+						"VIU":
+							{"id":"idFlexiGrid_6",
+							"caption":"FlexiGrid",
+							"disabled":"",
+							"name":"",
+							"style":"",
+							"theClass":"",
+							"url":"php/productosPlantilla3.php",
+							"dataType":"json",
+							"usepager":true,
+							"useRp":true,
+							"rp":20,
+							"showTableToggleBtn":true,
+							"resizable":false,
+							"singleSelect":false,
+							"sortname":"iso",
+							"sortorder":"asc",
+							"striped":false,
+							"width":554.7,
+							"height":456.70000000000005,
+							onSuccess:function(){cargaGrid("idFlexiGrid_6")},
+							"colModel":[
+								 {"display":"Cantidad"    ,"name":"cantidad"    ,"width":50,"sortable":false,"align":"right"}
+								,{"display":"Agregar"     ,"name":"agregar"      ,"width":80,"sortable":false,"align":"center"}
+								,{"display":"Nombre"      ,"name":"nombre"      ,"width":200,"sortable":true,"align":"left"}
+								,{"display":"Categoria"   ,"name":"categoria"   ,"width":130,"sortable":true,"align":"left"}
+								,{"display":"Descripcion" ,"name":"descripcion" ,"width":220,"sortable":true,"align":"left"}
+								,{"display":"Fabricante"  ,"name":"fabricante"  ,"width":100,"sortable":true,"align":"left"}
+								,{"display":"Unidad"      ,"name":"unidad"      ,"width":60,"sortable":true,"align":"left"}
+								],
+							"searchitems":[{"display":"Nombre","name":"Nombre","isdefault":true}, {"display":"Descripcion","name":"descripcion","isdefault":true}]
+							}
+					},
+					
+{
+						"subclass":"ToolbarClass","parent":"panelTab_2","height":"48.7","width":"780","top":"36","left":"5",
+						"VIU":{"id":"idToolbarClass_4",	"disabled":"","name":"","style":"","theClass":"ui-state-default ui-corner-all",
+						"bars":[
+							{"helpText":"File","id":"idBarFile",
+							"elements":[
+								{"type":"button"  ,"helpText":"Ir a carro de compras", "classIcon":"ui-icon-cart", "text":false,"id":"idToolCar"}
+							   ,{"type":"button","helpText":"Eliminar producto seleccionado de favorito","id":"idToolDel","classIcon":"ui-icon-circle-minus"}
+							   ]
+							}
+						]}
+					},
+					{
+						"subclass":"FlexiGridClass","parent":"panelTab_2","height":"490","width":"785","top":"80","left":"5",
+						"VIU":
+							{"id":"idFlexiGrid_8",
+							"caption":"FlexiGrid",
+							"disabled":"",
+							"name":"",
+							"style":"",
+							"theClass":"",
+							"url":"php/productosPlantilla3.php",
+							"dataType":"json",
+							"usepager":true,
+							"useRp":true,
+							"rp":20,
+							"showTableToggleBtn":true,
+							"resizable":false,
+							"singleSelect":false,
+							"sortname":"iso",
+							"sortorder":"asc",
+							"striped":false,
+							"width":554.7,
+							"height":456.70000000000005,
+							onSuccess:function(){cargaGrid("idFlexiGrid_8")},
+							"colModel":[
+								 {"display":"Cantidad"    ,"name":"cantidad"    ,"width":50,"sortable":false,"align":"right"}
+								,{"display":"Agregar"     ,"name":"agregar"     ,"width":80,"sortable":false,"align":"center"}
+								,{"display":"Nombre"      ,"name":"nombre"      ,"width":200,"sortable":true,"align":"left"}
+								,{"display":"Categoria"   ,"name":"categoria"   ,"width":130,"sortable":true,"align":"left"}
+								,{"display":"Descripcion" ,"name":"descripcion" ,"width":220,"sortable":true,"align":"left"}
+								,{"display":"Fabricante"  ,"name":"fabricante"  ,"width":100,"sortable":true,"align":"left"}
+								,{"display":"Unidad"      ,"name":"unidad"      ,"width":60,"sortable":true,"align":"left"}
+								],
+							"searchitems":[{"display":"Nombre","name":"Nombre","isdefault":true}, {"display":"Descripcion","name":"descripcion","isdefault":true}]
+							}
+					},
+					
+					{
+						"subclass":"DynatreeClass","parent":"idFS_4","height":"470","width":"229.7","top":"37.9","left":"5",
+						"VIU":
+						{
+							"id":"idDynatree_10",
+							"disabled":"",
+							"name":"",
+							"style":"",
+							"theClass":"ui-corner-all",
+							"data":
+							[
+							  {"title":"Todos los productos"}
+							 ,{"title":"Frutas y verduras"}
+							 ,{"title":"Legumbres y cereales"}
+							 ,{"title":"Huevos y lácteos"}
+							 ,{"title":"Aceites y vinagres"}
+							 ,{"title":"Hierbas e infusiones"}
+							 ,{"title":"Miel"}
+							 ,{"title":"Vinos y bebidas"}
+							 ,{"title":"Mermeladas y conservas"}
+							 ,{"title":"Panadería"}
+							 ,{"title":"Aliños"}
+							 ,{"title":"Otros"}
+							]
+						}
+					}
+				]
+			}
+	;
+	
+	dependence(platilla);//importa todos los js que necesita la pagina para funcionar
+	addDependence({modulo_name:"jquery-ui", resource_name:"spinner"});//importa todos los js que necesita la pagina para funcionar
+    $("#idFormat").run(platilla);
+});
+
+   function cargaGrid(id){
+   		$("#"+id+" .button").each(function() {
+			var obj = $(this);
+			obj.button({icons:{"primary": "ui-icon-triangle-1-s"}});
+		});
+   
+		$("#"+id+" .spinner").each(function() {
+			var obj = $(this);
+			obj.spinner({
+				spin: function( event, ui ){
+					if ( ui.value < 0 ) {
+						$( this ).spinner( "value", 0 );
+						return false;
+					}
+					return true;
+				}
+			});
+		});
+   }
+
+
+</script>
+
+<div style='position:relative;'>
+	<div id="idFormat" class="ui-state-default ui-corner-all">
+	</div>
+</div>
+</body></html>

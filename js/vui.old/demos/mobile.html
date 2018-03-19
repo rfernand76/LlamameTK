@@ -1,0 +1,434 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Example - Mobile</title>
+	
+	<script src="/js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
+	<script src="/js/vui/dependence.js"></script>
+	
+</head> 
+<body style="border: 0px solid"> 
+<script type="text/javascript">
+/*
+Descripcion: El objetivo de esta pagina es presentar la interfaz principal de carga de platillas de pedidos a los socios o clientes.
+Autor: Ricardo Fernandez
+Correos contactos: ricardo.fernandez@sqltxt.cl
+www.sqltxt.cl o www.sqltxt.com
+
+*/
+
+$(function() {
+	var platilla = 
+{
+	"format": {
+		"version": "1.0.2",
+		"create": "2014-02-24T13:30:28.622Z"
+	},
+	"page": {
+		"width": 800,
+		"height": 600,
+		"top": 0,
+		"left": 0,
+		"name": "",
+		"mobilesupport": true
+	},
+	"fields": [
+		{
+			"subclass": "AcordionClass",
+			"parent": "droppable",
+			"height": "558",
+			"width": "235",
+			"top": "40",
+			"left": "0",
+			"VIU": {
+				"id": "idAcordion_4",
+				"disabled": "",
+				"name": "",
+				"style": "",
+				"theClass": "ui-corner-all",
+				"nodes": [
+					{
+						"id": "panel_1",
+						"text": "Menu",
+						"padre": "idAcordion_4",
+						"idH3": "h3_1"
+					},
+					{
+						"id": "panel_2",
+						"text": "Directo",
+						"padre": "idAcordion_4",
+						"idH3": "h3_2"
+					}
+				],
+				"collapsible": "",
+				"mobile": {
+					"action": 1,
+					"name": "A"
+				}
+			}
+		},
+							{
+						"subclass":"DynatreeClass","parent":"panel_1",
+						"height": "473",
+						"width": "234.9",
+						"top": "0",
+						"left": "-17",
+						"VIU":
+						{
+							"id":"idDynatree_10",
+							"disabled":"",
+							"name":"",
+							"style":"",
+							"theClass":"ui-corner-all",
+							"data":
+							[
+							  {"title":"Todos los productos"}
+							 ,{"title":"Frutas y verduras"}
+							 ,{"title":"Legumbres y cereales"}
+							 ,{"title":"Huevos y lácteos"}
+							 ,{"title":"Aceites y vinagres"}
+							 ,{"title":"Hierbas e infusiones"}
+							 ,{"title":"Miel"}
+							 ,{"title":"Vinos y bebidas"}
+							 ,{"title":"Mermeladas y conservas"}
+							 ,{"title":"Panadería"}
+							 ,{"title":"Aliños"}
+							 ,{"title":"Otros"}
+							],
+				"mobile": {
+					"action": "2",
+					"name": "Data"
+				}
+						}
+					},
+		{
+			"subclass": "LabelClass",
+			"parent": "panel_2",
+			"height": "17",
+			"width": "51",
+			"top": "3",
+			"left": "22",
+			"VIU": {
+				"id": "idLabel_213",
+				"label": "Desde",
+				"name": "",
+				"style":"font-size:15px;","theClass":"ui-widget",
+				"mobile": {
+					"action": "4",
+					"name": ""
+				}
+			}
+		},
+		{
+			"subclass": "DatepickerClass",
+			"parent": "panel_2",
+			"height": "37",
+			"width": "113",
+			"top": "0",
+			"left": "78.1",
+			"VIU": {
+				"id": "idDatepicker_217",
+				"maxLength": "",
+				"size": "",
+				"disabled": "",
+				"style": "",
+				"name": "",
+				"theClass": "ui-corner-all",
+				"mobile": {
+					"action": 3,
+					"name": "Spinner"
+				}
+			}
+		},
+		{
+			"subclass": "LabelClass",
+			"parent": "panel_2",
+			"height": "17",
+			"width": "41",
+			"top": "45",
+			"left": "22",
+			"VIU": {
+				"id": "idLabel_221",
+				"label": "Hasta",
+				"name": "",
+				"style":"font-size:15px;","theClass":"ui-widget",
+				"mobile": {
+					"action": "4",
+					"name": ""
+				}
+			}
+		},
+		{
+			"subclass": "DatepickerClass",
+			"parent": "panel_2",
+			"height": "37",
+			"width": "113",
+			"top": "41",
+			"left": "76.1",
+			"VIU": {
+				"id": "idDatepicker_225",
+				"maxLength": "",
+				"size": "",
+				"disabled": "",
+				"style": "",
+				"name": "",
+				"theClass": "ui-corner-all",
+				"mobile": {
+					"action": 3,
+					"name": "Spinner"
+				}
+			}
+		},
+		{
+			"subclass": "JQBotonClass",
+			"parent": "panel_2",
+			"height": "51",
+			"width": "136",
+			"top": "93",
+			"left": "27.1",
+			"VIU": {
+				"id": "idJQBoton_229",
+				"maxLength": "",
+				"value": "0",
+				"disabled": "",
+				"theClass": "ui-corner-all",
+				"primary": "ui-icon-check",
+				"secondary": "",
+				"text": "text",
+				"caption": "Buscar",
+				"idCaption": "idCap_229",
+				"name": "",
+				"mobile": {
+					"action": 3,
+					"name": "B"
+				}
+			}
+		},
+		{
+			"subclass": "ToolbarClass",
+			"parent": "droppable",
+			"height": "49",
+			"width": "798",
+			"top": "0",
+			"left": "0",
+			"VIU": {
+				"id": "idToolbarClass_6",
+				"disabled": "",
+				"name": "",
+				"style": "",
+				"theClass": "ui-state-default ui-corner-all",
+				"mobile": {
+					"action": 1,
+					"name": "Opt."
+				},
+				"bars": [
+					{
+						"helpText": "File",
+						"id": "idBarFile",
+						"elements": [
+							{
+								"type": "button",
+								"helpText": "New",
+								"id": "idToolbar1",
+								"classIcon": "ui-icon-document"
+							},
+							{
+								"type": "button",
+								"helpText": "Save",
+								"id": "idToolbar2",
+								"classIcon": "ui-icon-disk"
+							},
+							{
+								"type": "button",
+								"helpText": "Close",
+								"id": "idToolbar3",
+								"classIcon": "ui-icon-home"
+							}
+						]
+					},
+					{
+						"helpText": "",
+						"id": "idBarOther",
+						"elements": [
+							{
+								"type": "button",
+								"helpText": "Preview",
+								"id": "idToolbar4",
+								"classIcon": "ui-icon-search"
+							},
+							{
+								"type": "button",
+								"helpText": "Config",
+								"id": "idToolbar5",
+								"classIcon": "ui-icon-gear"
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"subclass": "TabClass",
+			"parent": "droppable",
+			"height": "555",
+			"width": "558",
+			"top": "43",
+			"left": "231",
+			"VIU": {
+				"tabs": [
+					{
+						"idLi": "tabLi_17",
+						"idDiv": "tabDiv_17",
+						"idPanelTab": "panelTab_17",
+						"text": "Principal",
+						"padre": "idTab_137"
+					},
+					{
+						"idLi": "tabLi_18",
+						"idDiv": "tabDiv_18",
+						"idPanelTab": "panelTab_18",
+						"text": "Detalle",
+						"padre": "idTab_137"
+					}
+				],
+				"id": "idTab_137",
+				"disabled": "",
+				"idUl": "idTabUl_137",
+				"collapsible": "",
+				"event": "",
+				"name": "",
+				"style": "",
+				"sortable": "",
+				"theClass": "ui-corner-all",
+				"mobile": {
+					"action": 1,
+					"name": "T"
+				}
+			}
+		},
+		{
+			"subclass": "FlexiGridClass",
+			"parent": "panelTab_17",
+			"height": "520",
+			"width": "545",
+			"top": "35",
+			"left": "5",
+			"VIU": {
+				"id": "idFlexiGrid_141",
+				"caption": "FlexiGrid",
+				"disabled": "",
+				"name": "",
+				"style": "",
+				"theClass": "",
+							"url":"php/productosPlantilla3.php",
+							"dataType":"json",
+							"usepager":true,
+							"useRp":true,
+							"rp":20,
+							"showTableToggleBtn":true,
+							"resizable":false,
+							"singleSelect":false,
+							"sortname":"iso",
+							"sortorder":"asc",
+							"striped":false,
+							"width":554.7,
+							"height":456.70000000000005,
+							onSuccess:function(){cargaGrid("idFlexiGrid_141")},
+							"colModel":[
+						{"display":"Cantidad"    ,"name":"cantidad"    ,"width":50,"sortable":false,"align":"right"}
+						,{"display":"Agregar"     ,"name":"agregar"      ,"width":80,"sortable":false,"align":"center"}
+						,{"display":"Nombre"      ,"name":"nombre"      ,"width":200,"sortable":true,"align":"left"}
+						,{"display":"Categoria"   ,"name":"categoria"   ,"width":130,"sortable":true,"align":"left"}
+						,{"display":"Descripcion" ,"name":"descripcion" ,"width":220,"sortable":true,"align":"left"}
+						,{"display":"Fabricante"  ,"name":"fabricante"  ,"width":100,"sortable":true,"align":"left"}
+						,{"display":"Unidad"      ,"name":"unidad"      ,"width":60,"sortable":true,"align":"left"}
+								],
+							"searchitems":[{"display":"Nombre","name":"Nombre","isdefault":true}, {"display":"Descripcion","name":"descripcion","isdefault":true}],
+				"mobile": {
+					"action": "2",
+					"name": "Data"
+				}
+			}
+		},
+		{
+			"subclass": "FlexiGridClass",
+			"parent": "panelTab_18",
+			"height": "520",
+			"width": "545",
+			"top": "35",
+			"left": "5",
+			"VIU": {
+				"id": "idFlexiGrid_179",
+				"caption": "FlexiGrid",
+				"disabled": "",
+				"name": "",
+				"style": "",
+				"theClass": "",
+							"url":"",
+							"dataType":"json",
+							"usepager":true,
+							"useRp":true,
+							"rp":20,
+							"showTableToggleBtn":true,
+							"resizable":false,
+							"singleSelect":false,
+							"sortname":"iso",
+							"sortorder":"asc",
+							"striped":false,
+							"width":554.7,
+							"height":456.70000000000005,
+							onSuccess:function(){cargaGrid("idFlexiGrid_179")},
+							"colModel":[
+						{"display":"Cantidad"    ,"name":"cantidad"    ,"width":50,"sortable":false,"align":"right"}
+						,{"display":"Agregar"     ,"name":"agregar"      ,"width":80,"sortable":false,"align":"center"}
+						,{"display":"Nombre"      ,"name":"nombre"      ,"width":200,"sortable":true,"align":"left"}
+						,{"display":"Categoria"   ,"name":"categoria"   ,"width":130,"sortable":true,"align":"left"}
+						,{"display":"Descripcion" ,"name":"descripcion" ,"width":220,"sortable":true,"align":"left"}
+						,{"display":"Fabricante"  ,"name":"fabricante"  ,"width":100,"sortable":true,"align":"left"}
+						,{"display":"Unidad"      ,"name":"unidad"      ,"width":60,"sortable":true,"align":"left"}
+								],
+							"searchitems":[{"display":"Nombre","name":"Nombre","isdefault":true}, {"display":"Descripcion","name":"descripcion","isdefault":true}],
+				"mobile": {
+					"action": "2",
+					"name": "Data"
+				}
+							}
+		}
+	]
+}
+	;
+	
+	dependence(platilla);//importa todos los js que necesita la pagina para funcionar
+	addDependence({modulo_name:"jquery-ui", resource_name:"spinner"});//importa todos los js que necesita la pagina para funcionar
+    $("#idFormat").run(platilla);
+});
+
+   function cargaGrid(id){
+   		$("#"+id+" .button").each(function() {
+			var obj = $(this);
+			obj.button({icons:{"primary": "ui-icon-triangle-1-s"}});
+		});
+   
+		$("#"+id+" .spinner").each(function() {
+			var obj = $(this);
+			obj.spinner({
+				spin: function( event, ui ){
+					if ( ui.value < 0 ) {
+						$( this ).spinner( "value", 0 );
+						return false;
+					}
+					return true;
+				}
+			});
+		});
+   }
+
+
+</script>
+
+<div>
+	<div id="idFormat">
+	</div>
+</div>
+</body></html>

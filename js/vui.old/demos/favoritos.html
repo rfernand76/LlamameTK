@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Mantenedor de Favoritos</title>
+	
+	<script src="/js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
+	<script src="/js/vui/dependence.js"></script>
+	<script src="agregarProductosCtr.js"></script>
+	
+    <link rel="stylesheet" href="js/visualui/visualUI.css?">
+</head> 
+<body style="border: 0px solid"> 
+
+<script type="text/javascript">
+
+/*
+Descripcion: El objetivo de esta pagina es presentar la interfaz principal de carga de platillas de pedidos a los socios o clientes.
+Autor: Ricardo Fernandez
+Correos contactos: ricardo.fernandez@sqltxt.cl
+www.sqltxt.cl o www.sqltxt.com
+
+*/
+
+$(function() {
+	var platilla = 
+				{"format":{"version":"1.0.1","create":"2013-09-23T14:22:03.354Z"},
+					"page":{"width":800,"height":600,"top":0,"left":0,"name":""},
+					"fields":[
+						{"subclass":"ToolbarClass","parent":"droppable","height":"48.7","width":"793","top":"0","left":"2",
+							"VIU":{"id":"idToolbarClass_4","disabled":"","name":"","style":"","theClass":"ui-state-default ui-corner-all"
+							,"bars":[
+							  {"helpText":"File","id":"idBarFile","elements":[
+							     {"type":"button","helpText":"Agregar nuevo producto a favorito","id":"idToolAdd","classIcon":"ui-icon-document"}
+							    ,{"type":"button","helpText":"Eliminar producto seleccionado de favorito","id":"idToolDel","classIcon":"ui-icon-circle-minus"}
+							   ]}
+							  ,{"helpText":"","id":"idBarOther","elements":[
+							   {"type":"checkbox","helpText":"Deseo recibir correo recordatorio de lista de productos mensualmente","label":"Enviar recordatorio", "classIcon":"ui-icon-mail-closed", "text":true,"id":"idToolMail"}
+							   ]
+							  }]}
+						},
+						{"subclass":"FlexiGridClass","parent":"droppable","height":"549.7","width":"798","top":"45.2","left":"2",
+							"VIU":{"id":"idFlexiGrid_6"
+							,"caption":"FlexiGrid"
+							,"disabled":""
+							,"name":"","style":""
+							,"theClass":""
+							,"url":"php/productosFavoritos.php"
+							,"dataType":"json"
+							,"title":"Plantilla de productos Favoritos"
+							,"usepager":true
+							,"useRp":true
+							,"rp":"20"
+							,"showTableToggleBtn":false
+							,"resizable":false
+							,"singleSelect":false
+							,"sortname":"iso"
+							,"sortorder":"asc"
+							,"striped":false
+							,"width":794.7
+							,"height":459.70000000000005
+							,"colModel":[
+								 {"display":"Sel" ,"name":"seleccionar" ,"width":30,"sortable":false,"align":"left"}
+								,{"display":"Nombre"      ,"name":"nombre"      ,"width":200,"sortable":true,"align":"left"}
+								,{"display":"Categoria"   ,"name":"categoria"   ,"width":130,"sortable":true,"align":"left"}
+								,{"display":"Descripcion" ,"name":"descripcion" ,"width":220,"sortable":true,"align":"left"}
+								,{"display":"Fabricante"  ,"name":"fabricante"  ,"width":100,"sortable":true,"align":"left"}
+								,{"display":"Unidad"      ,"name":"unidad"      ,"width":60,"sortable":true,"align":"left"}
+								]
+							,"searchitems":[{"display":"Nombre","name":"Nombre","isdefault":true}]
+							}
+						}
+					]}
+		
+	;
+	dependence(platilla);//importa todos los js que necesita la pagina para funcionar
+	
+   $("#idFormat").run(platilla);
+   $("#idToolAdd").click(function() {agregar()});//Config
+   
+   
+   function agregar(){
+		var win = new agregarProductosCtr();
+		win.execute("agregarProductosCtr", "Agregar Productos", this);
+   }
+   
+});
+
+
+</script>
+
+
+<div id="idFormat" class="ui-state-default ui-corner-all">
+</div>
+
+</body></html>

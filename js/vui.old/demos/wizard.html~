@@ -1,0 +1,366 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head> 
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Auto consulta corfo</title>
+	
+	<script src="/js/jquery-ui-1.9.1.custom/js/jquery-1.8.2.js"></script>
+	<script src="/js/vui/dependence.js"></script>
+	
+    <link rel="stylesheet" href="/js/vui/visualUI.css?">
+</head> 
+<body style="border: 0px solid"> 
+
+<script type="text/javascript">
+
+/*
+Descripcion: El objetivo de esta pagina es presentar la interfaz principal de carga de platillas de pedidos a los socios o clientes.
+Autor: Ricardo Fernandez
+Correos contactos: ricardo.fernandez@sqltxt.cl
+www.sqltxt.cl o www.sqltxt.com
+
+*/
+
+$(function() {
+	var requested = true;
+	var platilla = 
+		{
+			"format": {"version": "1.0.1","create": "2013-09-28T14:20:14.021Z"},
+			"page": {"width": 800,"height": 600,"top": 0,"left": 0,"name": ""},
+			"fields": [
+				{
+					"subclass": "PollClass",
+					"parent": "droppable",
+					"height": "468",
+					"width": "788",
+					"top": "130.8",
+					"left": "6.0",
+					"VIU": {
+						"id": "idPollClass_6","disabled": "","name": "","style": "border:1px solid;","theClass": "ui-corner-all ui-tabs-panel ui-widget-content ui-corner-bottom ",
+						"title": "Test de encuestas","nextTitle": "Siguiente","previousTitle": "Anterior", "finishTitle": "Finalizar", "currentPageIndex": 0,
+						onFinish:function (encuesta){ejecutaFinaliza(this);},
+						"pages": [
+							{
+								"title": "IDENTIFICACIÓN",
+								"helpText": "Ingrese los datos indicados","onNext": "","onPrevious": "","url": "",
+								"questions": [
+									{"type": "text", requested: requested,"title": "Nombre","name": "name"},
+									{"type": "text",requested: requested,"title": "RUT Empresa","name": "rut"},
+									{"type": "email",requested: requested,"title": "Correo","name": "email"},
+									{"type": "combobox",requested: requested,"title": "Región del Proyecto","name": "product",
+										"list": [
+											{"caption": "Seleccione"   ,"value": ""},
+											{"caption": "Primera"      ,"value": "1"},
+											{"caption": "Segunda"      ,"value": "2"},
+											{"caption": "..."          ,"value": "4"},
+											{"caption": "Metropolitana","value": "5"}
+										]
+									}
+								]
+							},
+							
+							{
+								"title": "GESTIÓN DE MIS CLIENTES",
+								"helpText": "Por favor marque su respuesta","onNext": "","onPrevious": "","url": "",
+								"questions": [
+									{"type": "title","title": "1.- ¿Dependo mucho de un solo cliente?"},
+									{"type": "radio",requested: requested,"name": "select1",criterio:16,
+										"list": [
+											{"caption": "Si","value": "0"},
+											{"caption": "No","value": "100"},
+										]
+									},
+									
+									{"type": "title","title": "2.- Escucho a mis clientes para crear y/o mejorar mis productos/servicios"},
+									{"type": "radio",requested: requested,"name": "select2",criterio:24,
+										"list": [
+											{"caption": "Nunca","value": "00"},
+											{"caption": "Casi Nunca","value": "25"},
+											{"caption": "Solo Algunas Veces","value": "50"},
+											{"caption": "Frecuentemente","value": "75"},
+											{"caption": "Muy Frecuentemente","value": "100"}
+										]
+									},
+									
+									{"type": "title","title": "3.- ¿Conozco a mis principales competidores?"},
+									{"type": "radio",requested: requested,"name": "select3",criterio:30,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"},
+										]
+									},
+									
+									{"type": "title","title": "4.- Doy a conocer mis productos y/o servicios a través de, por ejemplo, folletos, afiches o eventos promocionales."},
+									{"type": "radio",requested: requested,"name": "select4",criterio:30,
+										"list": [
+											{"caption": "Nunca","value": "00"},
+											{"caption": "Casi Nunca","value": "25"},
+											{"caption": "Solo Algunas Veces","value": "50"},
+											{"caption": "Frecuentemente","value": "75"},
+											{"caption": "Muy Frecuentemente","value": "100"}
+										]
+									}
+								]
+							},
+							
+							{
+								"title": "GESTIÓN PRODUCTIVA",
+								"helpText": "Avance 20%","onNext": "","onPrevious": "","url": "",
+								"questions": [
+									{"type": "title","title": "5.- ¿Utilizo el computador para facilitar el desarrollo de tareas en la empresa?"},
+									{"type": "radio",requested: requested,"name": "select5",criterio:50,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "6.- ¿Dependo mucho de un solo proveedor?"},
+									{"type": "radio",requested: requested,"name": "select6",criterio:50,
+										"list": [
+											{"caption": "Si","value": "0"},
+											{"caption": "No","value": "100"}
+										]
+									},
+									
+									{"type": "title","title": "Nota:\nProveedor, es la persona o empresa que me vende productos y/o servicios."},
+								]
+							},
+							
+							{
+								"title": "GESTIÓN DE MIS TRABAJADORES",
+								"helpText": "Avance 40%","onNext": "","onPrevious": "","url": "",
+								"questions": [
+									{"type": "title","title": "7.- ¿Dispongo de un número de trabajadores suficiente para la realización de las tareas de mi empresa?"},
+									{"type": "radio",requested: requested,"name": "select7","helpText": "Select ",criterio:20,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "8.- Mis trabajadores saben hacer bien su trabajo"},
+									{"type": "radio",requested: requested,"name": "select8","helpText": "Select ",criterio:20,
+										"list": [
+											{"caption": "MUY EN DESACUERDO",              value: "00"},
+											{"caption": "EN DESACUERDO",                  value: "25"},
+											{"caption": "NI DE ACUERDO NI EN DESACUERDO", value: "50"},
+											{"caption": "DE ACUERDO",                     value: "75"},
+											{"caption": "MUY DE ACUERDO",                 value: "100"}
+										]
+									},
+									
+						
+									{"type": "grid","name": "select9",requested: requested,col1Width:250,
+										"rows": [
+											{"caption": "9.- <b>Pago bonos/comisiones a mis trabajadores cuando a la empresa le va bien</b>", criterio:17.5, listValue:[100, 75, 50, 25, 0]},
+											{"caption": "10.-<b>Pago bonos/comisiones a mis trabajadores cuando a la empresa le va bien</b>", criterio:17.5, listValue:[100, 75, 50, 25, 0]},
+											{"caption": "10.-<b>Realizo actividades con mis trabajadores para generar buenas relaciones</b>", criterio:25,   listValue:[100, 75, 50, 25, 0]}
+										],
+										"cols": [
+											{"caption": "Muy en desacuerdo","value": 1},
+											{"caption": "En desacuerdo","value": 2},
+											{"caption": "Ni de acuerdo, ni en desacuerdo","value": 3},
+											{"caption": "De acuerdo","value": 4},
+											{"caption": "Muy de acuerdo","value": 5},
+										]
+									}
+								]
+							},
+							
+							
+							{
+								"title": "GESTIÓN DE MIS FINANZAS",
+								"helpText": "Por favor marque las respuestas de su preferencia","helpText": "Avance 60%","onPrevious": "","url": "",
+								"questions": [
+									{"type": "grid","name": "selectxx",requested: requested, col1Width:250,
+										"rows": [
+											{"caption": "12.-Registro las ventas diarias de la empresa<b></b>",    criterio:15, listValue:[0, 25, 50, 75, 100]},
+											{"caption": "13.-Registro los gastos diarios de la empresa<b></b>",    criterio:15, listValue:[0, 25, 50, 75, 100]},
+											{"caption": "14.-Me cuesta pagarle a tiempo a mis proveedores<b></b>", criterio:16, listValue:[100, 75, 50, 25, 0]}
+										],
+										"cols": [
+											{"caption": "Muy en desacuerdo"              ,"value": 1},
+											{"caption": "En desacuerdo"                  ,"value": 2},
+											{"caption": "Ni de acuerdo, ni en desacuerdo","value": 3},
+											{"caption": "De acuerdo"                     ,"value": 4},
+											{"caption": "Muy de acuerdo"                 ,"value": 5},
+										]
+									},
+
+									{"type": "title","title": "15.-¿Me asigno un sueldo mensual? "},
+									{"type": "radio",requested: requested,"name": "select10",criterio:8,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "16.-¿Ocupo parte del dinero de caja de mi empresa para pagar cuentas personales? "},
+									{"type": "radio",requested: requested,"name": "select11",criterio:16,
+										"list": [
+											{"caption": "Si","value": "0"},
+											{"caption": "No","value": "100"}
+										]
+									},
+									
+									{"type": "title","title": "17.-¿Tengo acceso a crédito y/o líneas de crédito con bancos, cooperativas u otras?"},
+									{"type": "radio",requested: requested,"name": "select12",criterio:30,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									}
+								]
+							},
+							
+							{
+								"title": "GERENCIAMIENTO",
+								"helpText": "Avance 80%","onNext": "","onPrevious": "","url": "",
+								"questions": [
+									{"type": "title","title": "18.-¿Delego tareas importantes a algún trabajador de la empresa? "},
+									{"type": "radio",requested: requested,"name": "select13",criterio:20,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "19.-¿Tengo pensado crear nuevos productos o servicios? "},
+									{"type": "radio",requested: requested,"name": "select14",criterio:20,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "20.-¿Tengo pensado buscar nuevos clientes? "},
+									{"type": "radio",requested: requested,"name": "select15",criterio:20,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "21.-¿Me propongo metas anuales de crecimiento en ventas? "},
+									{"type": "radio",requested: requested,"name": "select16",criterio:20,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+									
+									{"type": "title","title": "22.-¿Dedico parte de mi tiempo a controlar la forma en que se hacen las cosas en mi empresa? "},
+									{"type": "radio",requested: requested,"name": "select17",criterio:20,
+										"list": [
+											{"caption": "Si","value": "100"},
+											{"caption": "No","value": "0"}
+										]
+									},
+								]
+							}
+							
+						]
+					}
+				},
+				{
+					"subclass": "ImagenClass","parent": "droppable",
+					"height": "142","width": "798","top": "0","left": "5.9",
+					"VIU": {"id": "idImg_10","disabled": "","src": "/demos/corfo/autodiagnostico.png","border": "","name": "","style": "","theClass": "ui-corner-all","alt": ""}
+				}
+			]
+		}
+
+		
+	;
+	dependence(platilla);//importa todos los js que necesita la pagina para funcionar
+    $("#idFormat").run(platilla);
+
+   
+   function ejecutaFinaliza(encuesta){
+		var zonaEncuesta = $("#idFormat #idPollClass_6");
+		zonaEncuesta.html("");
+   
+		var properties = encuesta.properties;
+		var encabezado = properties.pages[0];
+		var html = "<table cellspacing='0' cellpadding='0' width='50%' align='center' class='ui-widget-content'>";
+		for(var i=0; i<	encabezado.questions.length-1; i++){
+		   html = html +"<tr><td align='right' width='50%' class='ui-state-hover'><b>"+encabezado.questions[i].title+"</b>:</td><td width='50%' class='ui-state-default'>"+encabezado.questions[i].value+"</td></tr>"
+		}
+		html = html +  "</table><br/><div align='center'>A continuación se presenta un gráfico que muestra el puntaje obtenido en todos los ámbitos evaluados.</br><table border='0' width='90%' class='ui-corner-all ui-widget-content'><tr>";
+
+		var pages = properties.pages;
+		for(var i=1; i<pages.length; i++){
+			html = html + "<td align='center'>"+getGrafico(pages[i])+"</td>";
+		}
+		
+		html = html +  "<tr></tr>";
+		for(var i=1; i<pages.length; i++){
+			html = html + "<td align='center'><b>"+ pages[i].title +"</b></td>";
+		}
+		
+		html = html +  "</tr></table></div>";
+		zonaEncuesta.html(html);
+   }
+   
+   function getGrafico(pagina){
+		var porcentaje = getPorcentaje(pagina);
+		var heightGrafico = getHeightGrafico(porcentaje);
+		var grafico = "<div class='ui-state-default' style='width:78px; height:"+heightGrafico+"px;'>"+(porcentaje)+"%</div>";
+		var html = "<div class='ui-corner-all' style='width:80px; height:200px; background-color:#08088A;'>"+grafico+"</div>";
+
+		return html;
+   }
+   
+   function getHeightGrafico(porcentaje){
+		var e = 100-(porcentaje);
+		var heightGrafico = ((e*200)/100);
+		
+		return heightGrafico;
+   }
+   
+	function getPorcentaje(pagina){
+		var preguntas = pagina.questions;			
+		var porcentaje = 0;
+
+		for(i=0; i<preguntas.length; i++){
+			var pregunta = preguntas[i];
+			if(pregunta.type == "radio"){
+				var criterio = pregunta.criterio;
+				var value = pregunta.value;
+				if(value != undefined){
+					var estePorcentaje = (criterio * value)/100;
+					porcentaje = porcentaje + estePorcentaje;
+				}
+			}else if(pregunta.type == "grid"){
+				for(var e=0; e<pregunta.rows.length; e++){
+					var criterio = pregunta.rows[e].criterio;
+					var listValue = pregunta.rows[e].listValue;
+					
+					if(pregunta.value != undefined){
+						var selected = pregunta.value[e];
+						var value = listValue[selected-1];
+						
+						if(value != undefined){
+							var estePorcentaje = (criterio * value)/100;
+							porcentaje = porcentaje + estePorcentaje;
+						}
+					}
+				}
+			}
+		}
+		
+		return porcentaje;
+   }
+
+});
+
+
+</script>
+
+<div style="position:relative;">
+	<div id="idFormat" class="ui-state-default ui-corner-all">
+
+	</div>
+</div>
+</body></html>
